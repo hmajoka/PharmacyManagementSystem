@@ -45,6 +45,7 @@ namespace PharmacyManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Hello there is testing purpose
             if (IsValid())
             {
                 if (R.Login(UserNametextBox.Text, comboBox1, PasswordtextBox.Text))
